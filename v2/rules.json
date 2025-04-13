@@ -1,0 +1,66 @@
+[
+    {
+      "id": 1,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": "doubleclick.net",
+        "resourceTypes": ["script", "xmlhttprequest", "sub_frame", "image"]
+      }
+    },
+    {
+      "id": 2,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": "ads.google.com",
+        "resourceTypes": ["script", "xmlhttprequest"]
+      }
+    },
+    {
+      "id": 3,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": "adserver.com",
+        "resourceTypes": ["script", "xmlhttprequest"]
+      }
+    },
+    {
+      "id": 4,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": "amazon-adsystem.com",
+        "resourceTypes": ["script", "image", "xmlhttprequest"]
+      }
+    },
+    {
+      "id": 5,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": "content.ad",
+        "resourceTypes": ["script", "xmlhttprequest"]
+      }
+    },
+    {
+      "id": 6,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": "sponsored",
+        "resourceTypes": ["sub_frame", "script"]
+      }
+    },
+    {
+      "id": 7,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": "tracking",
+        "resourceTypes": ["xmlhttprequest", "image"]
+      }
+    }
+  ]
+  
